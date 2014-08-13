@@ -6,7 +6,9 @@
   :author "Daniel Kochmański"
   :license "GPLv3"
   :depends-on (#:alexandria
-               #:lparallel)
+               #:lparallel
+	       #:ltk)
   :components ((:file "package")
+	       (:file "signals")
                (:file "any-ui")))
 
